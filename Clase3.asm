@@ -66,8 +66,9 @@ XOR DX,DX ; Limpia el registro DX y colocarle un dato 0
 
 ; VER DESPUES
 MOV AX, 32768d
-MOV BX,20d
-MUL BL
+MOV BX,02d
+MUL BX ; Multiplica el contenido de AX por BX y almacena el resultado en DX:AX
+
 
 ;AFECTANDO EL REGISTRO DX: MOV OPERANDO 
 
